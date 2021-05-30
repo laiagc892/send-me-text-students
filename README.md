@@ -13,7 +13,7 @@ Resources:
 Video describing this exercise (Spanish) - [Link](https://oscarm.tinytake.com/tt/NTI2OTI3N18xNjQ4NjI3NQ)
 
 ## Requeriment 1
-Create a server in your local machine that will be listening to incoming requests in port 3000. Submit the form for the first time with any information. Is the server receiving all the fields from the form? 
+Create a server in your local machine that will be listening to incoming requests in port 3000. Submit the form for the first time with any information. Is the server receiving all the fields from the form?
 
 ## Requeriment 2
 The server should always work if the incoming request is to the endpoint __/sendtext__ and only if the client is performing a GET request. In any other case, it should respond back a 404 error with a messsage of your choice.
@@ -38,9 +38,12 @@ Now, try to navigate to http://localhost:3000/duckduckgo.txt. Can you see the fi
 ## Requeriment 5
 Open a new Git Bash terminal in your server project folder
 
-1. Write a command to show all the files with TXT extension sorted by modification date. 
+1. Write a command to show all the files with TXT extension sorted by modification date.
+solution (class): ls -lt
 
 2. Write another command to watch every second the files sorted  by modification date. Perform a new submit in the form and notice if the file list is updated
+solution (class): watch
+?? solution (oscar): watch -n 1 ls -lt
 
 ### BONUS
 

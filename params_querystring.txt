@@ -1,0 +1,2 @@
+manera "actual" de oteber los parámetros de la QueryStirng
+https://nodejs.org/api/url.html#url_class_urlsearchparams
